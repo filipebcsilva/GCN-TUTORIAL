@@ -1,0 +1,36 @@
+{
+  "run_id": "teste_rapido",
+  "seed": 11,
+  "config": {
+    "num_epocas": 20,
+    "paciencia": 20,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": true,
+    "rank": 10,
+    "adj_residual_scale": 0.5,
+    "augmentation": true
+  },
+  "tempo_treino_segundos": 136.88,
+  "epoca_parada": 20,
+  "loss_treino_final": 1.669846166263927,
+  "loss_val_final": 1.6810074329376221,
+  "acc_treino_final": 0.412774598486247,
+  "acc_val_final": 0.3803418803418803,
+  "melhor_acc_treino": 0.412774598486247,
+  "melhor_epoca_acc_treino": 20,
+  "melhor_acc_val": 0.40341880341880343,
+  "melhor_epoca_acc_val": 18,
+  "loss_teste": 1.6423714637756348,
+  "acc_teste": 0.4207369323050557,
+  "loss_teste_modelo_final": 1.664838433265686,
+  "acc_teste_modelo_final": 0.3873179091688089,
+  "acc_teste_lote1": 0.4207369323050557,
+  "sanidade": {
+    "original": 0.4207369323050557,
+    "pad_5": 0.4130248500428449,
+    "pad_10": 0.3924592973436161,
+    "corte_10pct": 0.42759211653813195,
+    "fixo_40_quadros": 0.4198800342759212
+  }
+}

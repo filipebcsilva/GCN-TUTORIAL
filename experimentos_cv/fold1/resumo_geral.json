@@ -1,0 +1,73 @@
+[
+  {
+    "run_id": "CV_fixo_fold1",
+    "seed": 11,
+    "config": {
+      "num_epocas": 600,
+      "paciencia": 80,
+      "lr": 0.005,
+      "hidden_dim": 256,
+      "learn_adj": false,
+      "grafo": "esqueleto"
+    },
+    "tempo_treino_segundos": 2617.08,
+    "epoca_parada": 487,
+    "loss_treino_final": 0.12525902632623911,
+    "loss_val_final": 2.1333571434020997,
+    "acc_treino_final": 0.9586760673717195,
+    "acc_val_final": 0.7273550724637681,
+    "melhor_acc_treino": 0.9651390520955738,
+    "melhor_epoca_acc_treino": 464,
+    "melhor_acc_val": 0.7481884057971014,
+    "melhor_epoca_acc_val": 407,
+    "loss_teste": 1.9675454241888863,
+    "acc_teste": 0.7441709844559585,
+    "loss_teste_modelo_final": 1.9718411479677473,
+    "acc_teste_modelo_final": 0.7331606217616581,
+    "acc_teste_lote1": 0.7441709844559585,
+    "sanidade": {
+      "original": 0.7441709844559585,
+      "pad_5": 0.7227979274611399,
+      "pad_10": 0.7020725388601037,
+      "corte_10pct": 0.7059585492227979,
+      "fixo_40_quadros": 0.6794041450777202
+    }
+  },
+  {
+    "run_id": "CV_final_fold1",
+    "seed": 11,
+    "config": {
+      "num_epocas": 900,
+      "paciencia": 120,
+      "lr": 0.005,
+      "hidden_dim": 256,
+      "learn_adj": true,
+      "rank": 10,
+      "adj_residual_scale": 0.5,
+      "grafo": "esqueleto",
+      "augmentation": true
+    },
+    "tempo_treino_segundos": 4387.08,
+    "epoca_parada": 706,
+    "loss_treino_final": 0.12606642991304398,
+    "loss_val_final": 2.074247431755066,
+    "acc_treino_final": 0.9606345475910694,
+    "acc_val_final": 0.7454710144927537,
+    "melhor_acc_treino": 0.973168820994908,
+    "melhor_epoca_acc_treino": 665,
+    "melhor_acc_val": 0.7789855072463768,
+    "melhor_epoca_acc_val": 586,
+    "loss_teste": 1.8070685267448425,
+    "acc_teste": 0.7882124352331606,
+    "loss_teste_modelo_final": 1.6202083826065063,
+    "acc_teste_modelo_final": 0.7648963730569949,
+    "acc_teste_lote1": 0.7882124352331606,
+    "sanidade": {
+      "original": 0.7882124352331606,
+      "pad_5": 0.772020725388601,
+      "pad_10": 0.7512953367875648,
+      "corte_10pct": 0.7700777202072538,
+      "fixo_40_quadros": 0.741580310880829
+    }
+  }
+]

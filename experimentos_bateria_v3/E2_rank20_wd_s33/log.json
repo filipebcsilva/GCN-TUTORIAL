@@ -1,0 +1,27 @@
+{
+  "run_id": "E2_rank20_wd_s33",
+  "seed": 33,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 128,
+    "learn_adj": true,
+    "rank": 20,
+    "weight_decay": 0.001
+  },
+  "tempo_treino_segundos": 1334.41,
+  "epoca_parada": 514,
+  "loss_treino_final": 0.8026710531928323,
+  "loss_val_final": 1.14296555519104,
+  "acc_treino_final": 0.7261838953381242,
+  "acc_val_final": 0.6208082545141874,
+  "melhor_acc_treino": 0.7357656163626313,
+  "melhor_epoca_acc_treino": 503,
+  "melhor_acc_val": 0.7308684436801376,
+  "melhor_epoca_acc_val": 434,
+  "loss_teste": 0.943128502368927,
+  "acc_teste": 0.7044673539518901,
+  "loss_teste_modelo_final": 1.1400609970092774,
+  "acc_teste_modelo_final": 0.6125429553264605
+}

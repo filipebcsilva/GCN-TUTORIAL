@@ -1,0 +1,26 @@
+{
+  "run_id": "H0_completo_fixo_s22",
+  "seed": 22,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": false,
+    "grafo": "completo"
+  },
+  "tempo_treino_segundos": 2725.51,
+  "epoca_parada": 526,
+  "loss_treino_final": 0.8536119108850305,
+  "loss_val_final": 2.095737075805664,
+  "acc_treino_final": 0.7118113138013635,
+  "acc_val_final": 0.46001719690455717,
+  "melhor_acc_treino": 0.7118113138013635,
+  "melhor_epoca_acc_treino": 526,
+  "melhor_acc_val": 0.47377472055030095,
+  "melhor_epoca_acc_val": 446,
+  "loss_teste": 1.972776198387146,
+  "acc_teste": 0.47680412371134023,
+  "loss_teste_modelo_final": 2.1222036838531495,
+  "acc_teste_modelo_final": 0.4647766323024055
+}

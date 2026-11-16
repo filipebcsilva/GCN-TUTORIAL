@@ -1,0 +1,13 @@
+{
+  "escala": 1.0,
+  "limiar": 0.5,
+  "seeds": [
+    11,
+    22,
+    33,
+    44,
+    55
+  ],
+  "reforcadas": [],
+  "enfraquecidas": []
+}

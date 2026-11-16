@@ -1,0 +1,26 @@
+{
+  "run_id": "I0_consenso_fixo_s11",
+  "seed": 11,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": false,
+    "grafo": "consenso"
+  },
+  "tempo_treino_segundos": 3031.33,
+  "epoca_parada": 545,
+  "loss_treino_final": 0.12372878684916279,
+  "loss_val_final": 1.9082921981811523,
+  "acc_treino_final": 0.9631472268288188,
+  "acc_val_final": 0.7592433361994841,
+  "melhor_acc_treino": 0.9635157545605307,
+  "melhor_epoca_acc_treino": 494,
+  "melhor_acc_val": 0.7626827171109201,
+  "melhor_epoca_acc_val": 465,
+  "loss_teste": 1.8472168922424317,
+  "acc_teste": 0.7268041237113402,
+  "loss_teste_modelo_final": 1.836903166770935,
+  "acc_teste_modelo_final": 0.7319587628865979
+}

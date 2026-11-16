@@ -1,0 +1,26 @@
+{
+  "run_id": "H0_completo_fixo_s55",
+  "seed": 55,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": false,
+    "grafo": "completo"
+  },
+  "tempo_treino_segundos": 2242.99,
+  "epoca_parada": 437,
+  "loss_treino_final": 0.9912248226729307,
+  "loss_val_final": 1.964940857887268,
+  "acc_treino_final": 0.6528468767274738,
+  "acc_val_final": 0.45399828030954426,
+  "melhor_acc_treino": 0.6646397641422517,
+  "melhor_epoca_acc_treino": 430,
+  "melhor_acc_val": 0.47463456577815993,
+  "melhor_epoca_acc_val": 357,
+  "loss_teste": 1.875699782371521,
+  "acc_teste": 0.47594501718213056,
+  "loss_teste_modelo_final": 1.9715068817138672,
+  "acc_teste_modelo_final": 0.46735395189003437
+}

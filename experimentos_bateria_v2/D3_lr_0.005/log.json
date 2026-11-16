@@ -1,0 +1,26 @@
+{
+  "run_id": "D3_lr_0.005",
+  "seed": 2050930976,
+  "config": {
+    "learn_adj": true,
+    "rank": 20,
+    "hidden_dim": 128,
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005
+  },
+  "tempo_treino_segundos": 1108.58,
+  "epoca_parada": 343,
+  "loss_treino_final": 0.17483759806914764,
+  "loss_val_final": 1.187222385406494,
+  "acc_treino_final": 0.9437995209139488,
+  "acc_val_final": 0.7996560619088564,
+  "melhor_acc_treino": 0.9467477427676433,
+  "melhor_epoca_acc_treino": 324,
+  "melhor_acc_val": 0.8013757523645744,
+  "melhor_epoca_acc_val": 263,
+  "loss_teste": 1.1046808242797852,
+  "acc_teste": 0.7852233676975945,
+  "loss_teste_modelo_final": 1.2014076471328736,
+  "acc_teste_modelo_final": 0.7938144329896907
+}

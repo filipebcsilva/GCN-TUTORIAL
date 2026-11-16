@@ -1,0 +1,35 @@
+{
+  "run_id": "K2_fixo_aug_s22",
+  "seed": 22,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": false,
+    "grafo": "esqueleto",
+    "augmentation": true
+  },
+  "tempo_treino_segundos": 3098.95,
+  "epoca_parada": 493,
+  "loss_treino_final": 0.24174042520197955,
+  "loss_val_final": 1.4137481808662415,
+  "acc_treino_final": 0.916928189034521,
+  "acc_val_final": 0.7102564102564103,
+  "melhor_acc_treino": 0.9453572087871516,
+  "melhor_epoca_acc_treino": 488,
+  "melhor_acc_val": 0.7316239316239316,
+  "melhor_epoca_acc_val": 413,
+  "loss_teste": 1.5394036531448365,
+  "acc_teste": 0.7206512425021423,
+  "loss_teste_modelo_final": 1.6153119444847106,
+  "acc_teste_modelo_final": 0.7335047129391602,
+  "acc_teste_lote1": 0.7206512425021423,
+  "sanidade": {
+    "original": 0.7206512425021423,
+    "pad_5": 0.7086546700942588,
+    "pad_10": 0.675235646958012,
+    "corte_10pct": 0.6932305055698372,
+    "fixo_40_quadros": 0.662382176520994
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "run_id": "K1_aprendida_s55",
+  "seed": 55,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": true,
+    "rank": 10,
+    "adj_residual_scale": 0.5,
+    "grafo": "esqueleto"
+  },
+  "tempo_treino_segundos": 1972.7,
+  "epoca_parada": 355,
+  "loss_treino_final": 0.16074908863414417,
+  "loss_val_final": 1.0773398756980896,
+  "acc_treino_final": 0.9466494369577256,
+  "acc_val_final": 0.8162393162393162,
+  "melhor_acc_treino": 0.9617869669558796,
+  "melhor_epoca_acc_treino": 345,
+  "melhor_acc_val": 0.8358974358974359,
+  "melhor_epoca_acc_val": 275,
+  "loss_teste": 1.045224916934967,
+  "acc_teste": 0.8011996572407883,
+  "loss_teste_modelo_final": 1.015945851802826,
+  "acc_teste_modelo_final": 0.8071979434447301,
+  "acc_teste_lote1": 0.8011996572407883,
+  "sanidade": {
+    "original": 0.8011996572407883,
+    "pad_5": 0.8123393316195373,
+    "pad_10": 0.794344473007712,
+    "corte_10pct": 0.7900599828620394,
+    "fixo_40_quadros": 0.7677806341045416
+  }
+}

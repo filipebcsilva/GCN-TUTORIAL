@@ -1,0 +1,25 @@
+{
+  "run_id": "F0_fixo_h256_s33",
+  "seed": 33,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "learn_adj": false,
+    "hidden_dim": 256
+  },
+  "tempo_treino_segundos": 1652.14,
+  "epoca_parada": 321,
+  "loss_treino_final": 0.45065815340388904,
+  "loss_val_final": 1.6839943170547484,
+  "acc_treino_final": 0.8398747005712179,
+  "acc_val_final": 0.6147893379191746,
+  "melhor_acc_treino": 0.8599594619495117,
+  "melhor_epoca_acc_treino": 310,
+  "melhor_acc_val": 0.6276870163370594,
+  "melhor_epoca_acc_val": 241,
+  "loss_teste": 1.507472777366638,
+  "acc_teste": 0.6125429553264605,
+  "loss_teste_modelo_final": 1.693622922897339,
+  "acc_teste_modelo_final": 0.6151202749140894
+}

@@ -1,0 +1,38 @@
+{
+  "run_id": "L2_K3_dgcn0.2_s44",
+  "seed": 44,
+  "config": {
+    "num_epocas": 900,
+    "paciencia": 120,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": true,
+    "rank": 10,
+    "adj_residual_scale": 0.5,
+    "grafo": "esqueleto",
+    "augmentation": true,
+    "dropout_gcn": 0.2
+  },
+  "tempo_treino_segundos": 6025.13,
+  "epoca_parada": 887,
+  "loss_treino_final": 0.14477564665404233,
+  "loss_val_final": 1.0835824072360993,
+  "acc_treino_final": 0.9527413697618609,
+  "acc_val_final": 0.8247863247863247,
+  "melhor_acc_treino": 0.9713863762230016,
+  "melhor_epoca_acc_treino": 881,
+  "melhor_acc_val": 0.8401709401709402,
+  "melhor_epoca_acc_val": 767,
+  "loss_teste": 1.0114400863647461,
+  "acc_teste": 0.8389031705227078,
+  "loss_teste_modelo_final": 1.1272053956985473,
+  "acc_teste_modelo_final": 0.8123393316195373,
+  "acc_teste_lote1": 0.8389031705227078,
+  "sanidade": {
+    "original": 0.8389031705227078,
+    "pad_5": 0.8269065981148244,
+    "pad_10": 0.803770351328192,
+    "corte_10pct": 0.8251928020565553,
+    "fixo_40_quadros": 0.8080548414738646
+  }
+}

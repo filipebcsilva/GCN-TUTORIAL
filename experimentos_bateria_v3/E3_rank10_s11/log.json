@@ -1,0 +1,26 @@
+{
+  "run_id": "E3_rank10_s11",
+  "seed": 11,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 128,
+    "learn_adj": true,
+    "rank": 10
+  },
+  "tempo_treino_segundos": 997.76,
+  "epoca_parada": 385,
+  "loss_treino_final": 0.2761277583512393,
+  "loss_val_final": 1.311799955368042,
+  "acc_treino_final": 0.9065782200110558,
+  "acc_val_final": 0.7583834909716252,
+  "melhor_acc_treino": 0.9436152570480929,
+  "melhor_epoca_acc_treino": 377,
+  "melhor_acc_val": 0.7858985382631126,
+  "melhor_epoca_acc_val": 305,
+  "loss_teste": 1.2375133752822876,
+  "acc_teste": 0.7285223367697594,
+  "loss_teste_modelo_final": 1.3074904441833497,
+  "acc_teste_modelo_final": 0.7319587628865979
+}

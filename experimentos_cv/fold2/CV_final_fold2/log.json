@@ -1,0 +1,37 @@
+{
+  "run_id": "CV_final_fold2",
+  "seed": 11,
+  "config": {
+    "num_epocas": 900,
+    "paciencia": 120,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": true,
+    "rank": 10,
+    "adj_residual_scale": 0.5,
+    "grafo": "esqueleto",
+    "augmentation": true
+  },
+  "tempo_treino_segundos": 4767.15,
+  "epoca_parada": 776,
+  "loss_treino_final": 0.09445758983492851,
+  "loss_val_final": 1.7469470620155334,
+  "acc_treino_final": 0.9675146771037182,
+  "acc_val_final": 0.8018181818181818,
+  "melhor_acc_treino": 0.9735812133072407,
+  "melhor_epoca_acc_treino": 676,
+  "melhor_acc_val": 0.8172727272727273,
+  "melhor_epoca_acc_val": 656,
+  "loss_teste": 1.0932985927377428,
+  "acc_teste": 0.8063471502590673,
+  "loss_teste_modelo_final": 1.254664923463549,
+  "acc_teste_modelo_final": 0.7972797927461139,
+  "acc_teste_lote1": 0.8063471502590673,
+  "sanidade": {
+    "original": 0.8063471502590673,
+    "pad_5": 0.8011658031088082,
+    "pad_10": 0.7817357512953368,
+    "corte_10pct": 0.7959844559585493,
+    "fixo_40_quadros": 0.7810880829015544
+  }
+}

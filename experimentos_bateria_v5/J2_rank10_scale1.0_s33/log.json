@@ -1,0 +1,28 @@
+{
+  "run_id": "J2_rank10_scale1.0_s33",
+  "seed": 33,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": true,
+    "rank": 10,
+    "adj_residual_scale": 1.0,
+    "grafo": "esqueleto"
+  },
+  "tempo_treino_segundos": 2088.61,
+  "epoca_parada": 392,
+  "loss_treino_final": 0.15337867476046085,
+  "loss_val_final": 1.33044593334198,
+  "acc_treino_final": 0.947300534365211,
+  "acc_val_final": 0.7910576096302665,
+  "melhor_acc_treino": 0.9648056016215221,
+  "melhor_epoca_acc_treino": 390,
+  "melhor_acc_val": 0.8039552880481513,
+  "melhor_epoca_acc_val": 312,
+  "loss_teste": 1.2326563596725464,
+  "acc_teste": 0.7826460481099656,
+  "loss_teste_modelo_final": 1.4081677675247193,
+  "acc_teste_modelo_final": 0.7740549828178694
+}

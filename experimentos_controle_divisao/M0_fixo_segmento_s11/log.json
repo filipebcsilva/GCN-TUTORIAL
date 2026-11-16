@@ -1,0 +1,34 @@
+{
+  "run_id": "M0_fixo_segmento_s11",
+  "seed": 11,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "hidden_dim": 256,
+    "learn_adj": false,
+    "grafo": "esqueleto"
+  },
+  "tempo_treino_segundos": 3348.34,
+  "epoca_parada": 600,
+  "loss_treino_final": 0.10364694622429935,
+  "loss_val_final": 1.517092490196228,
+  "acc_treino_final": 0.966832504145937,
+  "acc_val_final": 0.7721410146173688,
+  "melhor_acc_treino": 0.9721761562557583,
+  "melhor_epoca_acc_treino": 571,
+  "melhor_acc_val": 0.7910576096302665,
+  "melhor_epoca_acc_val": 529,
+  "loss_teste": 1.531713843345642,
+  "acc_teste": 0.7603092783505154,
+  "loss_teste_modelo_final": 1.5652533054351807,
+  "acc_teste_modelo_final": 0.756872852233677,
+  "acc_teste_lote1": 0.7603092783505154,
+  "sanidade": {
+    "original": 0.7603092783505154,
+    "pad_5": 0.7577319587628866,
+    "pad_10": 0.7336769759450171,
+    "corte_10pct": 0.7482817869415808,
+    "fixo_40_quadros": 0.7139175257731959
+  }
+}

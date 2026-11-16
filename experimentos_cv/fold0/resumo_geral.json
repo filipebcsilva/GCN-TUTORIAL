@@ -1,0 +1,73 @@
+[
+  {
+    "run_id": "CV_fixo_fold0",
+    "seed": 11,
+    "config": {
+      "num_epocas": 600,
+      "paciencia": 80,
+      "lr": 0.005,
+      "hidden_dim": 256,
+      "learn_adj": false,
+      "grafo": "esqueleto"
+    },
+    "tempo_treino_segundos": 2946.3,
+    "epoca_parada": 530,
+    "loss_treino_final": 0.1699157677590847,
+    "loss_val_final": 2.629486584663391,
+    "acc_treino_final": 0.9431595452763623,
+    "acc_val_final": 0.7472924187725631,
+    "melhor_acc_treino": 0.9574676597412779,
+    "melhor_epoca_acc_treino": 500,
+    "melhor_acc_val": 0.7617328519855595,
+    "melhor_epoca_acc_val": 450,
+    "loss_teste": 1.205093087961099,
+    "acc_teste": 0.7545336787564767,
+    "loss_teste_modelo_final": 1.2973097145025219,
+    "acc_teste_modelo_final": 0.7389896373056994,
+    "acc_teste_lote1": 0.7545336787564767,
+    "sanidade": {
+      "original": 0.7545336787564767,
+      "pad_5": 0.741580310880829,
+      "pad_10": 0.7053108808290155,
+      "corte_10pct": 0.7182642487046632,
+      "fixo_40_quadros": 0.6884715025906736
+    }
+  },
+  {
+    "run_id": "CV_final_fold0",
+    "seed": 11,
+    "config": {
+      "num_epocas": 900,
+      "paciencia": 120,
+      "lr": 0.005,
+      "hidden_dim": 256,
+      "learn_adj": true,
+      "rank": 10,
+      "adj_residual_scale": 0.5,
+      "grafo": "esqueleto",
+      "augmentation": true
+    },
+    "tempo_treino_segundos": 4130.67,
+    "epoca_parada": 639,
+    "loss_treino_final": 0.10472015179693699,
+    "loss_val_final": 1.6268805503845214,
+    "acc_treino_final": 0.9655037240297922,
+    "acc_val_final": 0.8185920577617328,
+    "melhor_acc_treino": 0.9739317914543316,
+    "melhor_epoca_acc_treino": 576,
+    "melhor_acc_val": 0.8339350180505415,
+    "melhor_epoca_acc_val": 519,
+    "loss_teste": 0.9231052728635925,
+    "acc_teste": 0.8231865284974094,
+    "loss_teste_modelo_final": 0.9132878254167736,
+    "acc_teste_modelo_final": 0.8380829015544041,
+    "acc_teste_lote1": 0.8231865284974094,
+    "sanidade": {
+      "original": 0.8231865284974094,
+      "pad_5": 0.8037564766839378,
+      "pad_10": 0.783678756476684,
+      "corte_10pct": 0.810880829015544,
+      "fixo_40_quadros": 0.7927461139896373
+    }
+  }
+]

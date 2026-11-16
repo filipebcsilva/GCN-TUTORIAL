@@ -1,0 +1,25 @@
+{
+  "run_id": "B2_rank5",
+  "seed": 817049413,
+  "config": {
+    "learn_adj": true,
+    "rank": 5,
+    "hidden_dim": 128,
+    "num_epocas": 600,
+    "paciencia": 80
+  },
+  "tempo_treino_segundos": 1495.04,
+  "epoca_parada": 462,
+  "loss_treino_final": 0.2129165997559374,
+  "loss_val_final": 1.5382607936859132,
+  "acc_treino_final": 0.9327436889625944,
+  "acc_val_final": 0.7558039552880481,
+  "melhor_acc_treino": 0.9436152570480929,
+  "melhor_epoca_acc_treino": 428,
+  "melhor_acc_val": 0.7730008598452278,
+  "melhor_epoca_acc_val": 382,
+  "loss_teste": 1.150315260887146,
+  "acc_teste": 0.7731958762886598,
+  "loss_teste_modelo_final": 1.2346297979354859,
+  "acc_teste_modelo_final": 0.7663230240549829
+}

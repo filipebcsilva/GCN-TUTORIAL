@@ -1,0 +1,26 @@
+{
+  "run_id": "A2_wd1e-3",
+  "seed": 95564525,
+  "config": {
+    "learn_adj": true,
+    "rank": 20,
+    "hidden_dim": 128,
+    "num_epocas": 600,
+    "paciencia": 80,
+    "weight_decay": 0.001
+  },
+  "tempo_treino_segundos": 1951.5,
+  "epoca_parada": 600,
+  "loss_treino_final": 0.40605284950949927,
+  "loss_val_final": 0.9209310293197632,
+  "acc_treino_final": 0.867330016583748,
+  "acc_val_final": 0.7678417884780739,
+  "melhor_acc_treino": 0.87893864013267,
+  "melhor_epoca_acc_treino": 592,
+  "melhor_acc_val": 0.7747205503009458,
+  "melhor_epoca_acc_val": 567,
+  "loss_teste": 0.8474210619926452,
+  "acc_teste": 0.7620274914089347,
+  "loss_teste_modelo_final": 0.8484580636024475,
+  "acc_teste_modelo_final": 0.7654639175257731
+}

@@ -1,0 +1,25 @@
+{
+  "run_id": "E0_fixo_s44",
+  "seed": 44,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "learn_adj": false,
+    "hidden_dim": 128
+  },
+  "tempo_treino_segundos": 1510.94,
+  "epoca_parada": 600,
+  "loss_treino_final": 0.23010677031495355,
+  "loss_val_final": 1.8601375102996827,
+  "acc_treino_final": 0.9224249124746637,
+  "acc_val_final": 0.6904557179707652,
+  "melhor_acc_treino": 0.9224249124746637,
+  "melhor_epoca_acc_treino": 600,
+  "melhor_acc_val": 0.708512467755804,
+  "melhor_epoca_acc_val": 566,
+  "loss_teste": 1.632625126838684,
+  "acc_teste": 0.7164948453608248,
+  "loss_teste_modelo_final": 1.6251420736312867,
+  "acc_teste_modelo_final": 0.7276632302405498
+}

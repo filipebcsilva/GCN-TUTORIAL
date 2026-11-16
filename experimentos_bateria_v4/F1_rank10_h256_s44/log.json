@@ -1,0 +1,26 @@
+{
+  "run_id": "F1_rank10_h256_s44",
+  "seed": 44,
+  "config": {
+    "num_epocas": 600,
+    "paciencia": 80,
+    "lr": 0.005,
+    "learn_adj": true,
+    "rank": 10,
+    "hidden_dim": 256
+  },
+  "tempo_treino_segundos": 2698.88,
+  "epoca_parada": 506,
+  "loss_treino_final": 0.19085639613595876,
+  "loss_val_final": 1.8406555891036986,
+  "acc_treino_final": 0.9388243965358393,
+  "acc_val_final": 0.7403267411865864,
+  "melhor_acc_treino": 0.9758614335728764,
+  "melhor_epoca_acc_treino": 501,
+  "melhor_acc_val": 0.7489251934651763,
+  "melhor_epoca_acc_val": 426,
+  "loss_teste": 1.8668878555297852,
+  "acc_teste": 0.7439862542955327,
+  "loss_teste_modelo_final": 2.0247993946075438,
+  "acc_teste_modelo_final": 0.729381443298969
+}

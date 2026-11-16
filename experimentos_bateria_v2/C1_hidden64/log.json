@@ -1,0 +1,25 @@
+{
+  "run_id": "C1_hidden64",
+  "seed": 1410239836,
+  "config": {
+    "learn_adj": true,
+    "rank": 20,
+    "hidden_dim": 64,
+    "num_epocas": 600,
+    "paciencia": 80
+  },
+  "tempo_treino_segundos": 1275.59,
+  "epoca_parada": 600,
+  "loss_treino_final": 0.3225932019678029,
+  "loss_val_final": 1.4109338045120239,
+  "acc_treino_final": 0.8875990418278975,
+  "acc_val_final": 0.7446259673258814,
+  "melhor_acc_treino": 0.8962594435231251,
+  "melhor_epoca_acc_treino": 568,
+  "melhor_acc_val": 0.7446259673258814,
+  "melhor_epoca_acc_val": 600,
+  "loss_teste": 1.2829873323440553,
+  "acc_teste": 0.7663230240549829,
+  "loss_teste_modelo_final": 1.2829873323440553,
+  "acc_teste_modelo_final": 0.7663230240549829
+}

@@ -1,0 +1,73 @@
+[
+  {
+    "run_id": "CV_fixo_fold2",
+    "seed": 11,
+    "config": {
+      "num_epocas": 600,
+      "paciencia": 80,
+      "lr": 0.005,
+      "hidden_dim": 256,
+      "learn_adj": false,
+      "grafo": "esqueleto"
+    },
+    "tempo_treino_segundos": 2757.87,
+    "epoca_parada": 536,
+    "loss_treino_final": 0.10494816116988659,
+    "loss_val_final": 2.0817189812660217,
+    "acc_treino_final": 0.9647749510763209,
+    "acc_val_final": 0.7481818181818182,
+    "melhor_acc_treino": 0.9731898238747554,
+    "melhor_epoca_acc_treino": 477,
+    "melhor_acc_val": 0.76,
+    "melhor_epoca_acc_val": 456,
+    "loss_teste": 1.718033833163125,
+    "acc_teste": 0.7467616580310881,
+    "loss_teste_modelo_final": 1.7064723713057381,
+    "acc_teste_modelo_final": 0.7603626943005182,
+    "acc_teste_lote1": 0.7467616580310881,
+    "sanidade": {
+      "original": 0.7467616580310881,
+      "pad_5": 0.7292746113989638,
+      "pad_10": 0.6994818652849741,
+      "corte_10pct": 0.7409326424870466,
+      "fixo_40_quadros": 0.6910621761658031
+    }
+  },
+  {
+    "run_id": "CV_final_fold2",
+    "seed": 11,
+    "config": {
+      "num_epocas": 900,
+      "paciencia": 120,
+      "lr": 0.005,
+      "hidden_dim": 256,
+      "learn_adj": true,
+      "rank": 10,
+      "adj_residual_scale": 0.5,
+      "grafo": "esqueleto",
+      "augmentation": true
+    },
+    "tempo_treino_segundos": 4767.15,
+    "epoca_parada": 776,
+    "loss_treino_final": 0.09445758983492851,
+    "loss_val_final": 1.7469470620155334,
+    "acc_treino_final": 0.9675146771037182,
+    "acc_val_final": 0.8018181818181818,
+    "melhor_acc_treino": 0.9735812133072407,
+    "melhor_epoca_acc_treino": 676,
+    "melhor_acc_val": 0.8172727272727273,
+    "melhor_epoca_acc_val": 656,
+    "loss_teste": 1.0932985927377428,
+    "acc_teste": 0.8063471502590673,
+    "loss_teste_modelo_final": 1.254664923463549,
+    "acc_teste_modelo_final": 0.7972797927461139,
+    "acc_teste_lote1": 0.8063471502590673,
+    "sanidade": {
+      "original": 0.8063471502590673,
+      "pad_5": 0.8011658031088082,
+      "pad_10": 0.7817357512953368,
+      "corte_10pct": 0.7959844559585493,
+      "fixo_40_quadros": 0.7810880829015544
+    }
+  }
+]
